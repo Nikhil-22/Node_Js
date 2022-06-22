@@ -2,10 +2,10 @@
   "name": "npm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
-    "moment": "^2.29.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,8 +16,8 @@
     "url": "git+https://github.com/Nikhil-22/Node_Js.git"
   },
   "keywords": [],
-  "author": "Nikhil",
-  "license": "MCA",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nikhil-22/Node_Js/issues"
   },
