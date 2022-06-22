@@ -1,0 +1,98 @@
+<<<<<<< HEAD
+npm init
+
+npm init --yes
+
+
+npm config set init-author-name "Nikhil"
+
+npm set init-license "MIT"
+
+
+npm config get init-author-name
+
+npm get init-license
+
+
+npm config delete init-author-name
+
+npm config delete init-license
+
+
+npm install moment
+
+npm install moment --save
+
+npm install lodash --save-dev
+
+
+npm uninstall moment
+npm uninstall moment --save
+
+npm uninstall lodash
+npm uninstall lodash --save-dev
+
+
+npm install moment -g
+npm uninstall moment -g
+
+
+npm list
+npm list --depth 1
+npm list --depth 0
+npm list --global true --depth 1 
+
+
+npm install 
+=======
+Node.js is an open source server environment
+Node.js is free
+Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+Node.js uses JavaScript on the server
+
+node -v
+npm -v
+
+npm init
+
+npm init --yes
+
+
+npm config set init-author-name "Nikhil"
+
+npm set init-license "MIT"
+
+
+npm config get init-author-name
+
+npm get init-license
+
+
+npm config delete init-author-name
+
+npm config delete init-license
+
+
+npm install moment
+
+npm install moment --save
+
+npm install lodash --save-dev
+
+
+npm uninstall moment
+npm uninstall moment --save
+
+npm uninstall lodash
+npm uninstall lodash --save-dev
+
+
+npm install moment -g
+npm uninstall moment -g
+
+
+npm list
+npm list --depth 1
+npm list --depth 0
+npm list --global true --depth 1 
+>>>>>>> 5707cb3 (files uploaded)
