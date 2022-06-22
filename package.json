@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil-22/Node_Js.git"
+  },
   "keywords": [],
   "author": "Nikhil",
-  "license": "ISC",
-  "dependencies": {
-    "moment": "^2.29.3"
+  "license": "MCA",
+  "bugs": {
+    "url": "https://github.com/Nikhil-22/Node_Js/issues"
   },
-  "devDependencies": {
-    "lodash": "^4.17.21"
-  }
+  "homepage": "https://github.com/Nikhil-22/Node_Js#readme"
 }
