@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-npm init
-
-npm init --yes
-
-
-npm config set init-author-name "Nikhil"
-
-npm set init-license "MIT"
-
-
-npm config get init-author-name
-
-npm get init-license
-
-
-npm config delete init-author-name
-
-npm config delete init-license
-
-
-npm install moment
-
-npm install moment --save
-
-npm install lodash --save-dev
-
-
-npm uninstall moment
-npm uninstall moment --save
-
-npm uninstall lodash
-npm uninstall lodash --save-dev
-
-
-npm install moment -g
-npm uninstall moment -g
-
-
-npm list
-npm list --depth 1
-npm list --depth 0
-npm list --global true --depth 1 
-
 
 npm install 
 =======
@@ -53,30 +9,39 @@ Node.js uses JavaScript on the server
 node -v
 npm -v
 
-npm init
+{
+  "name": "metaverse", // The name of your project
+  "version": "0.92.12", // The version of your project
+  "description": "The Metaverse virtual reality. The final outcome of all virtual worlds, augmented reality, and the Internet.", // The description of your project
+  "main": "index.js"
+  "license": "MIT" // The license of your project
+}
 
-npm init --yes
+
+npm init # This will trigger the initialization
+npm init --yes # This will trigger automatically populated initialization.
 
 
 npm config set init-author-name "Nikhil"
-
 npm set init-license "MIT"
 
 
 npm config get init-author-name
-
 npm get init-license
 
 
 npm config delete init-author-name
-
 npm config delete init-license
 
 
+npm install <module> # Where <module> is the name of the module you want to install
+npm i <module> # Where <module> is the name of the module you want to install - using the i alias for installation
 npm install moment
 
+npm install <module> --save # Where <module> is the name of the module you want to install
 npm install moment --save
 
+npm install <module> --save-dev # Where <module> is the name of the module you want to install
 npm install lodash --save-dev
 
 
@@ -87,7 +52,12 @@ npm uninstall lodash
 npm uninstall lodash --save-dev
 
 
+npm install <module> --global # Where <module> is the name of the module you want to install globally
+npm install moment --global
+
+npm install <module> -g # Where <module> is the name of the module you want to install globally, using the -g alias
 npm install moment -g
+
 npm uninstall moment -g
 
 
@@ -95,4 +65,6 @@ npm list
 npm list --depth 1
 npm list --depth 0
 npm list --global true --depth 1 
->>>>>>> 5707cb3 (files uploaded)
+
+
+
