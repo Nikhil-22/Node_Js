@@ -123,12 +123,20 @@ The command-line interface or npm CLI that runs from a terminal to allow you to 
 The registry is a large public database of JavaScript code.
 
 
-package.json
--------------
+What is the package.json File?
+-----------------------------
 In general, every npm project has a file called package.json located in the root directory. 
 The package.json is a plain text file that contains important information that npm uses to identify the project and handle dependencies.
 
 
-Basically, the devDependencies should contain packages that you use during development. These packages are necessary only while you are developing your application.
+What is package-lock.json?
+--------------------------
+The package-lock.json specifies the exact version of the package used to build the project. 
+This file locks the dependencies so that when the project is installed, it references the versions used during development rather than the latest release.
 
-On the other hand, the dependencies should contain packages on which your application will depend. In other words, without these dependencies packages, your application will not work.
+
+Basically, the devDependencies should contain packages that you use during development. 
+These packages are necessary only while you are developing your application.
+
+On the other hand, the dependencies should contain packages on which your application will depend. 
+In other words, without these dependencies packages, your application will not work.
